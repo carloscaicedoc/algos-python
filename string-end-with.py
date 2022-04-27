@@ -6,6 +6,7 @@
 def stringEndsWith(string, ending):
     return string.endswith(ending)
 
+# Test cases:
 print(stringEndsWith('Tacoma', 'oma'))
 print(stringEndsWith('Argument', 'ment'))
 print(stringEndsWith('Balance', 'once'))
